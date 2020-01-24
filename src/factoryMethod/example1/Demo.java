@@ -12,7 +12,7 @@ public class Demo {
         runBusinessLogic();
     }
 
-    static void configure() {
+    private static void configure() {
         if (System.getProperty("os.name").equals("Windows 10")) {
             dialog = new WindowsDialog();
         } else {
@@ -26,7 +26,7 @@ public class Demo {
      * with and what kind of product it returns.
      */
 
-    static void runBusinessLogic() {
+    private static void runBusinessLogic() {
         dialog.renderWindow();
     }
 }

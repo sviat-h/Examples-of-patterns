@@ -9,9 +9,9 @@ import java.awt.event.ActionListener;
  * Windows button implementation.
  */
 public class WindowsButton implements Button {
-    JPanel panel = new JPanel();
-    JFrame frame = new JFrame();
-    JButton button;
+    private JPanel panel = new JPanel();
+    private JFrame frame = new JFrame();
+    private JButton button;
 
     @Override
     public void render() {
